@@ -17,6 +17,12 @@ ChangeLog:
         1.0.0:
             - Initial release
 --]]
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+
+Module.Prompt({
+    invite = "https://discord.gg/Tt4cQF9UaX", -- required
+    name = "Monki Monkey Fan Club !" -- optional
+})
 
 
 
